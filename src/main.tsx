@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './pages/App.tsx';
 import './index.scss';
-import { BrowserRouter,  Route, Routes  } from 'react-router-dom';
+import { HashRouter, BrowserRouter,  Route, Routes  } from 'react-router-dom';
 import Authenticationlayout from './pages/authenticationlayout.tsx';
 import Auth from './firebase/auth.tsx';
 import Login from './firebase/login.tsx';
@@ -183,7 +183,7 @@ import Loader from './components/common/loader/loader.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.Fragment>
-  <BrowserRouter>
+  <HashRouter>
     <React.Suspense fallback={<Loader/>}>
       <Routes> 
       <Route path={`${import.meta.env.BASE_URL}`} element={<Auth />}>
@@ -408,6 +408,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 
       </Routes>
     </React.Suspense>
-  </BrowserRouter>
+  </HashRouter>
 </React.Fragment>
 );
