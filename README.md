@@ -1,27 +1,48 @@
-# React + TypeScript + Vite
+# 🌐 loomoStudio – Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal website! This project serves as my **digital identity** — a place to share who I am, what I’ve built, and where I’m going.
 
-Currently, two official plugins are available:
+Live Demo: [🔗 View Website](https://eitvh.github.io/loomoStudio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- ~🧑‍💻 **About Me** – A quick introduction and professional background.~
+- 📄 **Resume** – Downloadable CV with experience, skills, and education.
+- 💼 **Portfolio** – Highlights of past and current projects.
+- 🚀 **Side Projects** – Fun and creative builds outside of work.
+- 📝 **Blog** *(optional)* – Thoughts, tutorials, and dev logs.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## 📦 Tech Stack
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Framework**: React + TypeScript
+- **Build Tool**: Vite
+- **Styling**: SCSS / Tailwind / Bootstrap (adjust based on your stack)
+- **Icons**: Bootstrap Icons, or custom SVGs
+- **Deployment**: GitHub Pages
+
+---
+
+## 🛠️ Installation & Development
+
+### Prerequisites
+- Node.js ≥ 16.x
+- npm ≥ 7.x
+
+### Setup Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/eitvh/loomoStudio.git
+
+# Navigate to project folder
+cd loomoStudio
+
+# Install dependencies
+npm install
+
+# Run in development mode
+npm run dev

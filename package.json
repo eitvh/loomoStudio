@@ -9,7 +9,9 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "sass": "sass ./src/assets/scss:./src/assets/css/",
-    "sass-min": "sass ./src/assets/scss:./src/assets/css/ --style compressed"
+    "sass-min": "sass ./src/assets/scss:./src/assets/css/ --style compressed",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
