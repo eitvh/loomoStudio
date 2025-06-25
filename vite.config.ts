@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 60000,
+    target: 'es2019'
     
   },
 });
