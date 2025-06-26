@@ -13,7 +13,7 @@ import face15 from "../../../../assets/images/faces/15.jpg";
 import face16 from "../../../../assets/images/faces/16.jpg";
 
 import bitcoin from "../../../../assets/images/crypto-currencies/regular/Bitcoin.svg";
-import litecoin from "../../../../assets/images/crypto-currencies/regular/Litecoin.svg";
+import litecoin from "../../../../assets/images/crypto-currencies/regular/litecoin.svg";
 import ethereum from "../../../../assets/images/crypto-currencies/regular/Ethereum.svg";
 import dash from "../../../../assets/images/crypto-currencies/regular/Dash.svg";
 import ripple from "../../../../assets/images/crypto-currencies/regular/Ripple.svg";

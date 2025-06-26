@@ -3,7 +3,7 @@ import { Button, Card, Col, Dropdown, Form, ListGroup, Pagination, ProgressBar, 
 import Pageheader from '../../../../components/pageheader/pageheader';
 import { Link } from 'react-router-dom';
 import bitcoin from "../../../../assets/images/crypto-currencies/regular/Bitcoin.svg";
-import litecoin from "../../../../assets/images/crypto-currencies/square-color/Litecoin.svg";
+import litecoin from "../../../../assets/images/crypto-currencies/square-color/litecoin.svg";
 import ethereum from "../../../../assets/images/crypto-currencies/square-color/Ethereum.svg";
 import dash from "../../../../assets/images/crypto-currencies/square-color/Dash.svg";
 import ripple from "../../../../assets/images/crypto-currencies/square-color/Ripple.svg";
