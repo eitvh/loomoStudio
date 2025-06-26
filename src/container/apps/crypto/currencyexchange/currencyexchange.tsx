@@ -4,7 +4,7 @@ import Pageheader from '../../../../components/pageheader/pageheader';
 import Select from 'react-select';
 import { BTC, DASH, EOS, ETH, GLM, LTC, Monero, Options1, Options2, XRS } from './exchangedata';
 import bitcoin from "../../../../assets/images/crypto-currencies/regular/Bitcoin.svg";
-import litecoin from "../../../../assets/images/crypto-currencies/square-color/litecoin.svg";
+import litecoin from "../../../../assets/images/crypto-currencies/square-color/Litecoin.svg";
 import ethereum from "../../../../assets/images/crypto-currencies/square-color/Ethereum.svg";
 import dash from "../../../../assets/images/crypto-currencies/square-color/Dash.svg";
 import ripple from "../../../../assets/images/crypto-currencies/square-color/Ripple.svg";
