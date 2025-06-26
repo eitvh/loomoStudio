@@ -2,7 +2,7 @@ import { FC, Fragment } from 'react';
 import { Button, Card, Col, Form, InputGroup, Row } from 'react-bootstrap';
 import Pageheader from '../../../../components/pageheader/pageheader';
 import bitcoin from "../../../../assets/images/crypto-currencies/square-color/Bitcoin.svg";
-import litecoin from "../../../../assets/images/crypto-currencies/square-color/Litecoin.svg";
+import litecoin from "../../../../assets/images/crypto-currencies/square-color/litecoin.svg";
 import ethereum from "../../../../assets/images/crypto-currencies/square-color/Ethereum.svg";
 import { Data1, Data2, Statistics } from './selldata';
 import Select from 'react-select';

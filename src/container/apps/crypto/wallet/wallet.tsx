@@ -2,7 +2,7 @@ import  { FC, Fragment } from 'react';
 import { Button, Card, Col, Form, InputGroup, Row } from 'react-bootstrap';
 import Pageheader from '../../../../components/pageheader/pageheader';
 import bitcoin from "../../../../assets/images/crypto-currencies/regular/Bitcoin.svg";
-import litecoin from "../../../../assets/images/crypto-currencies/square-color/Litecoin.svg";
+import litecoin from "../../../../assets/images/crypto-currencies/square-color/litecoin.svg";
 import ethereum from "../../../../assets/images/crypto-currencies/square-color/Ethereum.svg";
 import ripple from "../../../../assets/images/crypto-currencies/square-color/Ripple.svg";
 import media89 from "../../../../assets/images/media/media-89.png";
